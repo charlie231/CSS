@@ -4,34 +4,35 @@
     <link href="style.css" rel="stylesheet" />
     <title>Cyphers</title>
     <style>
-      html {
-        background-color: white;
-      }
       body {
         height: 1000vh;
         margin: 50px;
       }
-      div {
-        position: static;
-        background-color: wheat;
-        width: 300px;
-        height: 300px;
+      span {
+        background-color: yellowgreen;
+        color: tomato;
+        border-radius: 10px;
+        padding: 5px;
       }
-      .green {
-        background-color: teal;
-        position: absolute;
-        top: 0px;
-        right: 100px;
-        height: 100px;
-        width: 100px;
+      p + span {
+        margin: 0 10px;
+        text-decoration: underline;
+        font-size: 50px;
+        color: black;
+      }
+      p span {
+        color: white;
       }
     </style>
-
     <meta name="description" content="사이퍼즈 공식 홈페이지" />
   </head>
   <body>
     <div>
-      <div class="green"></div>
+      <p>
+        LOLOl
+        <span>inside</span>
+      </p>
+      <span>hello</span>
     </div>
   </body>
 </html>
